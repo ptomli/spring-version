@@ -30,9 +30,9 @@ Enter `spring-version`
 ```
 
 `spring-version` simply declares a `dependencyManagement` entry for each Spring
-module, at it's own `project.version`. So, `spring-version` `3.1.4.RELEASE`
+module, at its own `project.version`. So, `spring-version` `3.1.4.RELEASE`
 will result in any Spring transitive dependency being imported at
-`3.1.4.RELEASE`. Done, finished and klar!
+`3.1.4.RELEASE`. Done, finished and klaar!
 
 There are companion projects to handle other SpringSource project versions, such
 as
