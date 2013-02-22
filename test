@@ -1,0 +1,6 @@
+#!/bin/sh
+rm -rf t
+mkdir t
+cat pom.xml | sed -n '/dependencyManagement/!p' > t/pom.xml
+(cd t && mvn dependency:copy-dependencies)
+rm -rf t
