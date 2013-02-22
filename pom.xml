@@ -7,6 +7,7 @@
 
 	<name>Spring Version</name>
 	<description>Maven dependency management for Spring Framework versions</description>
+	<url>http://github.com/ptomli/spring-version</url>
 
 	<licenses>
 		<license>
