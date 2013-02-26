@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.ptomli.spring-version</groupId>
 	<artifactId>spring-version</artifactId>
-	<version>3.1.5.RELEASE-SNAPSHOT</version>
+	<version>3.2.1.RELEASE-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Spring Version</name>
@@ -80,7 +80,7 @@
 	</profiles>
 
 	<properties>
-		<spring.version>3.1.4.RELEASE</spring.version>
+		<spring.version>3.2.1.RELEASE</spring.version>
 	</properties>
 
 	<dependencyManagement>
@@ -88,11 +88,6 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-aop</artifactId>
-				<version>${spring.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-asm</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
 			<dependency>
@@ -173,6 +168,11 @@
 			<dependency>
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-webmvc</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc-portlet</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
 		</dependencies>
