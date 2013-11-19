@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.ptomli.spring-version</groupId>
 	<artifactId>spring-version</artifactId>
-	<version>3.2.4.RELEASE-SNAPSHOT</version>
+	<version>3.2.4.RELEASE</version>
 	<packaging>pom</packaging>
 
 	<name>Spring Version</name>
@@ -21,7 +21,7 @@
 		<url>http://github.com/ptomli/spring-version</url>
 		<connection>scm:git:git://github.com/ptomli/spring-version.git</connection>
 		<developerConnection>scm:git:git@github.com:ptomli/spring-version.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>v3.2.4.RELEASE</tag>
   </scm>
 
 	<issueManagement>
