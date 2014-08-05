@@ -1,5 +1,19 @@
 # Spring Version Management
 
+----
+
+## Superceded
+Please note that this project has effectively been superceeded by an official
+Spring project.
+
+    <dependency>
+	   <groupId>org.springframework</groupId>
+	    <artifactId>spring-framework-bom</artifactId>
+	    <version>4.0.x.RELEASE</version>
+    </dependency>
+
+----
+
 If you've ever created a moderately complex project which uses Spring, you've
 likely come across issues having to manage versions of Spring transitive
 dependencies.
